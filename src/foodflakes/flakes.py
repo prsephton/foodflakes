@@ -46,9 +46,9 @@ class API(grok.JSON):
         wait(proc, "uci", "uciok")
         proc.stdin.write("setoption name Hash value 32\n")
         wait(proc, "isready", "readyok")
-        
+        if moves is None: moves = ""
         proc.stdin.write("ucinewgame\n")
-        proc.stdin.write("position startpos moves {}\n".format(moves))        
+        proc.stdin.write("position startpos moves {}\n".format(moves))
         bestmove = wait(proc, "go depth {}".format(level), "bestmove")
         bestmove = bestmove.split(" ")
         proc.terminate()
