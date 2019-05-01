@@ -1,0 +1,16 @@
+setup.py
+src/foodflakes/__init__.py
+src/foodflakes/app.py
+src/foodflakes/resource.py
+src/foodflakes.egg-info/PKG-INFO
+src/foodflakes.egg-info/SOURCES.txt
+src/foodflakes.egg-info/dependency_links.txt
+src/foodflakes.egg-info/entry_points.txt
+src/foodflakes.egg-info/not-zip-safe
+src/foodflakes.egg-info/requires.txt
+src/foodflakes.egg-info/top_level.txt
+src/foodflakes/scripts/__init__.py
+src/foodflakes/scripts/interpreter.py
+src/foodflakes/tests/__init__.py
+src/foodflakes/tests/test_foodflakes.py
+src/foodflakes/tests/tests.py
